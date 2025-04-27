@@ -8,7 +8,7 @@ st.set_page_config(page_title="Recommend Apartments")
 
 location_df = pd.read_pickle('dataset/location_distance.pkl')
 
-cosine_sim1 = pickle.load(open('C:dataset/cosine_sim1.pkl','rb'))
+cosine_sim1 = pickle.load(open('dataset/cosine_sim1.pkl','rb'))
 cosine_sim2 = pickle.load(open('dataset/cosine_sim2.pkl','rb'))
 cosine_sim3 = pickle.load(open('dataset/cosine_sim3.pkl','rb'))
 
